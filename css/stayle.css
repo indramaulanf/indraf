@@ -107,10 +107,10 @@ body {
   display: inline-block;
   padding: 0.8rem 2rem;
   font-size: 1.2rem;
-  color: black;
+  color: var(--bg);
   background-color: var(--color1);
   border-radius: 0.5rem;
-  box-shadow: 1px 1px 3px rgba(78, 85, 217, 0.8);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
 /* about section */
 .about,
