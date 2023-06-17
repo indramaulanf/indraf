@@ -14,7 +14,7 @@
 
 body {
   font-family: "poppins", sans-serif;
-  background-color: #9ac5f4;
+  /* background-color: #9ac5f4; */
   color: white;
   min-height: 4000px;
 }
@@ -37,11 +37,11 @@ body {
 .navbar .navbar-logo {
   font-size: 2rem;
   font-weight: 700;
-  color: black;
+  color: white;
 }
 
 .navbar .navbar-nav a {
-  color: black;
+  color: white;
   display: inline-block;
   font-size: 1.3rem;
   margin: 0 1rem;
@@ -64,7 +64,7 @@ body {
   transform: scaleX(0.5);
 }
 .navbar .navbar-extra a {
-  color: black;
+  color: white;
   margin: 0 0.5rem;
 }
 
@@ -92,14 +92,14 @@ body {
   width: 45%;
 }
 .hero .content h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 1rem auto 0.5rem;
-  color: black;
+  color: white;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
 .hero .content p {
-  font-size: 1rem;
-  color: black;
+  font-size: 1.5rem;
+  color: white;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
 .hero .content a {
@@ -123,7 +123,7 @@ body {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 3rem;
-  color: black;
+  color: white;
 }
 
 .about .row .about-img {
@@ -141,8 +141,8 @@ body {
   margin-top: 1rem;
 }
 .about .content p {
-  font-size: 1rem;
-  color: black;
+  font-size: 1.5rem;
+  color: white;
   text-align: center;
   padding-left: 7rem;
   padding-right: 7rem;
@@ -164,7 +164,7 @@ body {
 }
 .Achievement .row .skill-1 h3 {
   font-size: 1.7rem;
-  color: black;
+  color: white;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
 .h1-1 {
@@ -217,26 +217,10 @@ body {
   .navbar .navbar-nav a:hover:after {
     transform: scaleX(0.2);
   }
-  /* .about .row .about-img .a-img img {
-    display: flex;
-    justify-content: center;
-    width: 40%;
-    border-radius: 15%;
-    margin-left: 20rem;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
-  } */
 }
 /* mobile phone */
 @media (max-width: 500px) {
   html {
     font-size: 42.5%;
   }
-  /* .about .row .about-img .a-img img {
-    display: flex;
-    justify-content: center;
-    width: 40%;
-    border-radius: 15%;
-    margin-left: 12.6rem;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
-  } */
 }
